@@ -1,65 +1,108 @@
 body {
-    padding: 5%;
-    font-family: sans-serif;
-  }
-  
-  p {
-    margin: 0;
-    padding: 0;
-  }
-  
-  header {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-  }
-  
-  nav {
-    display: flex;
-    justify-content: end;
-    align-items: center;
-  }
-  
-  nav p {
-    margin: 0 20px;
-  }
-  
-  nav a {
-    text-decoration: none;
-    padding: 6px 10px;
-    color: #333;
-    border: 1px solid #333;
-  }
-  
-  nav a:not(:last-child) {
-    margin-right: 15px;
-  }
-  
-  nav a:hover, nav a.active {
-    background-color: #333;
-    color: #fff;
-  }
-  
-  form {
-    width: 400px;
-    margin: 20px auto;
-    display: flex;
-    flex-direction: column;
-  }
-  
-  form > * {
-    padding: 7px 10px;
-    margin: 3px 0;
-  }
-  
-  form h1 {
-    text-align: center;
-  }
-  
-  ul li {
-    margin: 10px 0;
-  }
-  
-  ul li p {
-    margin: 4px;
-  }
+  padding: 5%;
+  font-family: Verdana, sans-serif;
+  background-color: #000;
+}
+
+p {
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+h3 {
+  background-color: #0B0082;
+  color: #F5F7FA;
+  text-shadow: 1px 1px #66FF00;
+  font-size: 48px;
+  padding: 20px;
+  box-shadow: 6px 6px #66FF00;
+  box-sizing: border-box;
+  width: 320px;
+  border-radius: 12px;
+}
+
+h1 {
+  margin: 36px 0;
+  color: #F5F7FA;
+  text-shadow: 1px 1px #66FF00;
+}
+
+nav {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+}
+
+nav p {
+  margin: 0 20px;
+}
+
+nav a {
+  text-decoration: none;
+  padding: 6px 10px;
+  color: #F5F7FA;
+  border: 1px solid #0B0082;
+}
+
+nav a:not(:last-child) {
+  margin-right: 15px;
+}
+
+nav a:hover,
+nav a.active {
+  background-color: #0B0082;
+  color: #fff;
+}
+
+form {
+  width: 400px;
+  margin: 20px auto;
+  display: flex;
+  flex-direction: column;
+}
+
+form>* {
+  padding: 7px 10px;
+  margin: 4px 0;
+}
+
+form h1 {
+  text-align: center;
+}
+
+ul {
+  width: max-content;
+  margin: 48px 0;
+  padding: 4px 6px;
+  background-color: #66FF00;
+  box-shadow: 6px 6px #0B0082;
+  border-radius: 6px;
+}
+
+ul li {
+  margin: 10px 0;
+}
+
+ul li p {
+  padding: 6px 4px;  
+  color: #000;  
+}
+
+button {
+  background-color: #0B0082;
+  color: #F5F7FA;
+  box-shadow: 3px 3px #66FF00;
+  text-shadow: .5px .5px #66FF00;
+  border-radius: 4px;
+}
+
+input {
+  box-shadow: 3px 3px #66FF00;
+  border-radius: 4px;
+}
