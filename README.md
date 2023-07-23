@@ -1,7 +1,7 @@
 # Challenge_14_MVC_Tech_Blog
 
 ## Description
-  SVG Logo creation using Jest, Inquirer, and SVG packages, and input in the terminal using Node 
+  MVC tech blog designed to demo use of express-session, handlebars.js, and authentication via bcrypt 
   
 ## Table of Contents
 - [Installation](#installation)
@@ -12,19 +12,19 @@
 - [Questions](#questions)
   
 ## Installation
-installed inquirer, jest, and svg pkgs in order to create an svg logo
-  
+installed dotenv, sequelize, mysql2, express,  express-handlebars, brcypt, connect-session-sequelize, and express-session pkgs to use a database, connect to it, add authentication, and encrypt passwords
+
 ## Usage
-demonstration of potential for using Jest and Node JS to generate an svg file that could be used as a logo
+demonstration of potential for using handlebars and express sessions to launch a basic blog with autherntication functionality
   
 ## License
 MIT License
   
 ## Contributing
-utilized module-10 lessons, stackoverflow, youtube, and chatgpt in order to debug any potential errors
+utilized module-14 lessons, heroku documentation, medium, and chatgpt in order to debug any potential errors
   
 ## Tests
-deploy to heroku
+visit localhost to test functionality then deploy to heroku
 
 Link: 
 
